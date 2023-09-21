@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #cac6c6;
 }
 
 header {
-    background-color: #a30000;
+    background-color: #65da65;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 h1 {
@@ -30,10 +30,10 @@ p {
 
 /* Estilos para secciones */
 section {
-    background-color: #fff;
+    background-color: hwb(180 99% 0%);
     margin: 20px;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 7px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -48,6 +48,7 @@ iframe {
     width: 100%;
     height: 315px;
     margin-top: 10px;
+    border-radius: 8px;
 }
 
 /* Estilos para listas */
@@ -62,7 +63,7 @@ li {
 
 /* Estilos para formularios */
 form {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 label {
@@ -75,12 +76,12 @@ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 5px;
 }
 
 input[type="submit"] {
-    background-color: #a30000;
+    background-color: #2a802e9d;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -90,11 +91,12 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #5b0000;
+    text-align: center;
 }
 
 /* Estilos para el footer */
 footer {
-    background-color: #a30000;
+    background-color: #3e9ed6;
     color: #fff;
     text-align: center;
     padding: 20px 0;
